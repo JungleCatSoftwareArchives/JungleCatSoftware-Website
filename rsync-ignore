@@ -1,0 +1,7 @@
+.git*
+README.md
+deploy.sh
+rsync-ignore
+index-test.php
+protected/tests
+protected/data
