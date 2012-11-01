@@ -5,3 +5,13 @@ rsync-ignore
 index-test.php
 protected/tests
 protected/data
+yii/build
+yii/CHANGELOG
+yii/CONTRIBUTING
+yii/demos
+yii/docs
+yii/LICENSE
+yii/README
+yii/tests
+yii/.travis.yml
+yii/UPGRADE
