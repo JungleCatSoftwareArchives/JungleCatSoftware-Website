@@ -1,5 +1,7 @@
-Jungle Cat Software Website
+Jungle Cat Software Website [![Build Status](https://jenkins.brwyatt.net/job/JungleCatSoftware.com/badge/icon)](https://jenkins.brwyatt.net/job/JungleCatSoftware.com/)
 ===========================
+Dev Build: [![Build Status](https://jenkins.brwyatt.net/job/JungleCatSoftware.com%20-%20DEV/badge/icon)](https://jenkins.brwyatt.net/job/JungleCatSoftware.com%20-%20DEV/)
+
 Website code for [junglecatsoftware.com](http://junglecatsoftware.com/ "Jungle Cat Software")
 
 Database Config
