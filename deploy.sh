@@ -17,7 +17,7 @@ scp $destination/$databaseconfig ./$databaseconfig
 chown :$webuser ./$databaseconfig
 
 # this is site-specific runtime logs and data. We don't want to wipe these and they aren't in sourcecontrol
-scp -r $destination/$yiiruntume ./$yiiruntime
+scp -r $destination/$yiiruntime ./$yiiruntime
 chown -R :$webuser ./$yiiruntime
 
 rsync -rltv --delete-delay --delete-excluded --delay-updates --force --group --chmod=ug+w,+rx --exclude-from=rsync-ignore ./ $destination
