@@ -12,6 +12,7 @@ yii/demos
 yii/docs
 yii/LICENSE
 yii/README
+yii/requirements
 yii/tests
 yii/.travis.yml
 yii/UPGRADE
