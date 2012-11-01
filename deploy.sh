@@ -14,11 +14,11 @@ yiiruntime="protected/runtime"
 
 # this is an environment-unique file not in source control
 scp $destination/$databaseconfig ./$databaseconfig
-chmod :$webuser ./$databaseconfig
+chown :$webuser ./$databaseconfig
 
 # this is site-specific runtime logs and data. We don't want to wipe these and they aren't in sourcecontrol
 scp -r $destination/$yiiruntume ./$yiiruntime
-chmod -R :$webuser ./$yiiruntime
+chown -R :$webuser ./$yiiruntime
 
 rsync -rltv --delete-delay --delete-excluded --delay-updates --force --group --chmod=ug+w,+rx --exclude-from=rsync-ignore ./ $destination
 
