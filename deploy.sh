@@ -1,4 +1,10 @@
-destination="/DATA/htdocs/dev.junglecatsoftware.com/"
+if [ -z $1 ]
+then
+	destination="/dev/null/"
+else
+	destination=$1
+fi
+
 databaseconfig="protected/config/database.php"
 
 # this is an environment-unique file not in source control
