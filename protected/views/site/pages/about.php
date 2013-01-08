@@ -6,5 +6,9 @@ $this->breadcrumbs=array(
 ?>
 <h1>About</h1>
 
-<p>This is a "static" page. You may change the content of this page
-by updating the file <tt><?php echo __FILE__; ?></tt>.</p>
+<p>Jungle Cat Software is an Open Source Software (OSS) organization interested in writing programs people want to use and enjoy using.</p>
+
+<h2>Current Members</h2>
+
+<h3>Bryan Wyatt</h3>
+<p>Bryan Wyatt is the founder and lead maintainer and has a passion for Open Source and making the world a better place. He is currently employed as a DevOps and Infrastructure Engineer specializing in building and maintaining Development and Production Linux servers with Puppet.</p>
