@@ -6,5 +6,6 @@
 
 <h3>Quick Links</h3>
 <ul>
+	<li><a href="https://trello.com/junglecatsoftware">Trello</a></li>
 	<li><a href="https://github.com/organizations/JungleCatSoftware">GitHub</a></li>
 </ul>
