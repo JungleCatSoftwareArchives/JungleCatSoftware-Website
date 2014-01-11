@@ -9,6 +9,6 @@
 <h3>Quick Links</h3>
 <ul>
 	<li><a href="https://trello.com/junglecatsoftware">Trello</a></li>
-	<li><a href="https://github.com/organizations/JungleCatSoftware">GitHub</a></li>
+	<li><a href="https://github.com/JungleCatSoftware">GitHub</a></li>
 	<li><a href="https://jenkins.brwyatt.net/">Jenkins Build Server</a></li>
 </ul>
